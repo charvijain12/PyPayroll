@@ -1,39 +1,54 @@
-# Company Payroll
-This project is a Python implementation of a staff payroll system. It models various entities related to payroll management using classes like `StaffMember`, `Employee`, `HourlyEmployee`, `SalariedEmployee`, `CommissionSalariedEmployee`, `Volunteer`, `Item`, `Book`, `Food`, `ValidationRule`, `TaxesValidationRule`, `SuppliersDealsValidationRule`, `InvoiceValidator`, `MandatoryInvoiceValidator`, `CompleteInvoiceValidator`.
+# PyPayroll: Company Payroll Management
 
-Each class has its properties and methods that relate to the entities they model. For example, `Employee` has properties like name, address, day_to_pay and methods like amount_to_pay. `Book` has properties like description, price per unit, quantity, author, etc.
+This project is a Python implementation of a staff payroll system that provides a structured approach to handle various aspects of payroll management through a set of classes and entities.
 
-The `InvoiceValidator` and its subclasses are used to validate invoices based on specified validation rules.
+## Key Entities
 
-This project can be used as a starting point for building a more comprehensive payroll system.
+- **StaffMember**: Represents the basic information of a staff member.
+- **Employee**: Extends StaffMember and includes information specific to an employee.
+- **HourlyEmployee**: Represents employees paid by the hour.
+- **SalariedEmployee**: Represents salaried employees.
+- **CommissionSalariedEmployee**: Represents employees on a commission-based salary.
+- **Volunteer**: Represents volunteers who are not paid.
+- **Item**: Represents items related to payroll and finance.
+- **Book**: Represents books for financial tracking.
+- **Food**: Represents food items for financial tracking.
+- **ValidationRule**: Provides a framework for defining validation rules.
+- **TaxesValidationRule**: Validates tax-related information.
+- **SuppliersDealsValidationRule**: Validates supplier deals.
+- **InvoiceValidator**: Validates invoices.
+- **MandatoryInvoiceValidator**: Ensures the completeness of invoices.
+- **CompleteInvoiceValidator**: Validates complete invoices.
 
+## Usage
+
+The PyPayroll system is designed to be extended and customized based on your specific payroll management needs. You can integrate these classes into your Python application and utilize them for efficient payroll management.
 
 ## Getting Started
-To get started with this project, follow the below steps:
 
-1. Clone the repository using the command:
-```
-git clone https://github.com/charvijain12/Company-payroll.git
-```
+To get started with this project, follow the steps below:
+
+1. Clone the repository using the following command:
+   ```
+   git clone https://github.com/charvijain12/PyPayroll.git
+   ```
 
 2. Navigate to the cloned repository:
-```
-cd Company-payroll
-```
+   ```
+   cd PyPayroll
+   ```
 
 3. Run the main script:
-```
-python3 main.py
-```
+   ```
+   python3 main.py
+   ```
 
-4. The script will run and display the output of the program.
-
+4. The script will execute and display the program's output.
 
 ## Contributing
-Contributions to this project are welcome. To contribute, follow the standard Github procedure of fork, branch, commit, and pull request.
 
-Please ensure that you follow the project's code style and conventions.
-
+Contributions to this project are welcome. To contribute, follow the standard GitHub procedure of forking, creating a branch, committing changes, and submitting a pull request. Please ensure that you follow the project's code style and conventions.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
