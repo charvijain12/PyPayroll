@@ -1,8 +1,8 @@
-# PyPayroll: Company Payroll Management
+# PyPayroll: Company Payroll Management 💼
 
 This project is a Python implementation of a staff payroll system that provides a structured approach to handle various aspects of payroll management through a set of classes and entities.
 
-## Key Entities
+## Key Entities 📚
 
 - **StaffMember**: Represents the basic information of a staff member.
 - **Employee**: Extends StaffMember and includes information specific to an employee.
@@ -20,11 +20,11 @@ This project is a Python implementation of a staff payroll system that provides 
 - **MandatoryInvoiceValidator**: Ensures the completeness of invoices.
 - **CompleteInvoiceValidator**: Validates complete invoices.
 
-## Usage
+## Usage 🚀
 
 The PyPayroll system is designed to be extended and customized based on your specific payroll management needs. You can integrate these classes into your Python application and utilize them for efficient payroll management.
 
-## Getting Started
+## Getting Started 🛠️
 
 To get started with this project, follow the steps below:
 
@@ -45,10 +45,10 @@ To get started with this project, follow the steps below:
 
 4. The script will execute and display the program's output.
 
-## Contributing
+## Contributing 🤝
 
 Contributions to this project are welcome. To contribute, follow the standard GitHub procedure of forking, creating a branch, committing changes, and submitting a pull request. Please ensure that you follow the project's code style and conventions.
 
-## License
+## License 📜
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
